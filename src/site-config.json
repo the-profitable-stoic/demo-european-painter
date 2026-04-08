@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "European Painter",
+    "phone": "+17194329547",
+    "category": "house painter",
+    "city": "Colorado Springs",
+    "state": "CO"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-trust-navy",
+      "categoryGroup": "roofing",
+      "name": "Trust Navy",
+      "recipeFile": "roofing/trust-navy.astro",
+      "colors": {
+        "primary": "#2C4563",
+        "primaryDark": "#1B2F45",
+        "primaryLight": "#D4E0ED",
+        "secondary": "#3D5A80",
+        "accent": "#3D6B5A",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2C4563",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "700",
+        "bodyFont": "Source Sans 3",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Colorado Springs Painting Pros",
+      "heroSubline": "European Painter delivers exceptional results with meticulous attention to detail. Trusted by homeowners across the Pikes Peak region.",
+      "aboutTitle": "Decades of Painting Expertise in Colorado Springs",
+      "aboutText": [
+        "European Painter began with a simple commitment: provide unparalleled painting services with a European attention to detail. Founded by artisans passionate about transforming homes and businesses, we quickly established ourselves as the premier painting company in Colorado Springs.",
+        "Our approach is simple: listen to our clients, understand their vision, and execute flawlessly. We use only the highest quality paints and materials, combined with proven techniques, to ensure a lasting and beautiful finish. We pride ourselves on clear communication, respect for your property, and delivering exceptional value.",
+        "We're more than just painters; we're part of the Colorado Springs community. We actively support local charities and organizations, believing in giving back to the community that has supported us. We are committed to sustainable practices, minimizing waste and using eco-friendly products whenever possible."
+      ],
+      "valueProps": [
+        {
+          "title": "Unmatched Quality",
+          "description": "We use premium paints and proven techniques for lasting beauty."
+        },
+        {
+          "title": "Meticulous Prep Work",
+          "description": "Proper preparation is key to a flawless finish; we don't cut corners."
+        },
+        {
+          "title": "Experienced Professionals",
+          "description": "Our team brings years of expertise to every project, big or small."
+        },
+        {
+          "title": "Clear Communication",
+          "description": "We keep you informed every step of the way, ensuring complete satisfaction."
+        }
+      ],
+      "ctaHeadline": "Transform Your Home Today!",
+      "ctaSubline": "Get a free, no-obligation quote from Colorado Springs' leading painting experts."
+    },
+    "services": [
+      {
+        "slug": "interior-painting",
+        "name": "Interior Painting",
+        "shortDescription": "Transform your living spaces with our expert interior painting services.",
+        "description": "Our interior painting service is designed to revitalize your home's interior, creating a fresh and inviting atmosphere. We understand the importance of color selection and how it impacts your mood and overall aesthetic. Our team works closely with you to choose the perfect color palette that reflects your personal style. We carefully prepare each surface, patching imperfections, sanding, and priming to ensure a smooth and even finish. \n\nWe protect your furniture and belongings with meticulous care, using drop cloths and plastic sheeting to prevent any paint splatters. Our skilled painters apply multiple coats of high-quality paint, paying close attention to detail and ensuring crisp lines and flawless coverage. We handle everything from walls and ceilings to trim and doors, transforming your interior into a space you'll love. Given the Colorado Springs climate, with intense sunlight, we recommend paints with UV protection to prevent fading. We're familiar with the challenges of painting in older homes near Old Colorado City and newer builds in Briargate, and we tailor our approach accordingly.",
+        "process": [
+          "Step 1: Consultation and Color Selection: We discuss your vision and help you choose the perfect colors.",
+          "Step 2: Surface Preparation: We meticulously prepare surfaces, patching, sanding, and priming as needed.",
+          "Step 3: Painting: Our skilled painters apply multiple coats of high-quality paint.",
+          "Step 4: Cleanup and Inspection: We clean up thoroughly and conduct a final inspection to ensure your satisfaction."
+        ],
+        "benefits": [
+          "Enhance your home's beauty and value",
+          "Create a fresh and inviting atmosphere",
+          "Protect your walls from wear and tear",
+          "Improve your indoor air quality with low-VOC paints"
+        ],
+        "faq": [
+          {
+            "question": "How long does interior painting typically take?",
+            "answer": "The duration depends on the size and complexity of the project. We'll provide a detailed timeline during the consultation, but most projects take between 2-5 days."
+          },
+          {
+            "question": "Do I need to move my furniture?",
+            "answer": "We prefer that you remove small items and valuables. We'll carefully cover and protect all remaining furniture and belongings."
+          },
+          {
+            "question": "What type of paint do you use?",
+            "answer": "We use only high-quality paints from trusted brands like Sherwin-Williams and Benjamin Moore. We can recommend specific paints based on your needs and preferences."
+          }
+        ]
+      },
+      {
+        "slug": "exterior-painting",
+        "name": "Exterior Painting",
+        "shortDescription": "Protect and beautify your home with our professional exterior painting service.",
+        "description": "Our exterior painting service is designed to protect your home from the harsh Colorado climate while enhancing its curb appeal. We understand the unique challenges of painting in Colorado Springs, from the intense sun and hail storms to the dry air. We use durable, weather-resistant paints that can withstand the elements and maintain their color for years to come. \n\nWe start by thoroughly cleaning and preparing your home's exterior, removing loose paint, dirt, and mildew. We repair any damaged siding or trim, ensuring a smooth and even surface for painting. Our skilled painters apply multiple coats of paint, paying close attention to detail and ensuring complete coverage. We're experienced in painting all types of homes, from stucco to wood siding, and we tailor our approach to each project. Given the prevalence of stucco homes in areas like Broadmoor, we have specialized techniques for achieving a long-lasting finish. We also offer color consultation services to help you choose the perfect colors that complement your home's architecture and surroundings.",
+        "process": [
+          "Step 1: Power Washing: We thoroughly clean your home's exterior to remove dirt, mildew, and loose paint.",
+          "Step 2: Surface Repair: We repair any damaged siding, trim, or stucco.",
+          "Step 3: Priming: We apply a high-quality primer to ensure proper adhesion and protection.",
+          "Step 4: Painting: Our skilled painters apply multiple coats of weather-resistant paint."
+        ],
+        "benefits": [
+          "Protect your home from the elements",
+          "Enhance your home's curb appeal",
+          "Increase your home's value",
+          "Prevent costly repairs down the road"
+        ],
+        "faq": [
+          {
+            "question": "How often should I paint my home's exterior?",
+            "answer": "In Colorado Springs, we recommend painting your home's exterior every 5-7 years, depending on the type of siding and the severity of the weather conditions."
+          },
+          {
+            "question": "What type of paint is best for exterior painting in Colorado?",
+            "answer": "We recommend using acrylic latex paints that are specifically formulated for exterior use. These paints are durable, weather-resistant, and provide excellent color retention."
+          },
+          {
+            "question": "Do you offer any warranties on your exterior painting services?",
+            "answer": "Yes, we offer a [Number] year warranty on our exterior painting services, covering peeling, cracking, and blistering."
+          }
+        ]
+      },
+      {
+        "slug": "cabinet-refinishing",
+        "name": "Cabinet Refinishing",
+        "shortDescription": "Give your kitchen or bathroom a fresh new look with our cabinet refinishing services.",
+        "description": "Our cabinet refinishing service is a cost-effective way to update your kitchen or bathroom without the expense of replacing your cabinets. We can transform your existing cabinets with a fresh coat of paint or stain, giving them a modern and stylish look. Our team carefully removes all hardware, cleans the cabinets thoroughly, and sands them to create a smooth surface for painting or staining. \n\nWe use high-quality paints and stains that are specifically designed for cabinets, ensuring a durable and long-lasting finish. We also offer a variety of finishes, from matte to glossy, to match your personal style. We understand that your kitchen is the heart of your home, and we take great care to minimize disruption during the refinishing process. We protect your countertops and appliances with drop cloths and plastic sheeting, and we clean up thoroughly at the end of each day. Many homes in Colorado Springs have older cabinets that can benefit from refinishing, especially in neighborhoods like Old Colorado City. Cabinet refinishing can drastically improve the look of your kitchen or bathroom, making a big impact on your home's overall appeal.",
+        "process": [
+          "Step 1: Cabinet Removal and Cleaning: We remove all hardware and thoroughly clean the cabinets.",
+          "Step 2: Sanding: We sand the cabinets to create a smooth surface.",
+          "Step 3: Priming: We apply a high-quality primer to ensure proper adhesion.",
+          "Step 4: Painting or Staining: We apply multiple coats of paint or stain in your desired finish."
+        ],
+        "benefits": [
+          "Save money compared to replacing your cabinets",
+          "Update your kitchen or bathroom's look",
+          "Increase your home's value",
+          "Choose from a variety of colors and finishes"
+        ],
+        "faq": [
+          {
+            "question": "How long does cabinet refinishing take?",
+            "answer": "Cabinet refinishing typically takes 3-5 days, depending on the size and complexity of the project."
+          },
+          {
+            "question": "Can you refinish any type of cabinet?",
+            "answer": "We can refinish most types of cabinets, including wood, MDF, and laminate. However, we may need to inspect your cabinets to determine if they are suitable for refinishing."
+          },
+          {
+            "question": "What type of paint or stain do you use for cabinet refinishing?",
+            "answer": "We use high-quality paints and stains that are specifically designed for cabinets. These products are durable, moisture-resistant, and provide a long-lasting finish."
+          }
+        ]
+      },
+      {
+        "slug": "drywall-repair",
+        "name": "Drywall Repair",
+        "shortDescription": "Restore your walls to their original condition with our professional drywall repair services.",
+        "description": "Our drywall repair service addresses everything from minor dings and dents to larger holes and water damage. We understand that damaged drywall can detract from the beauty of your home and compromise its structural integrity. Our team carefully assesses the damage and uses the appropriate techniques to repair it seamlessly. \n\nWe patch holes, repair cracks, and smooth out imperfections, ensuring a flawless finish that blends seamlessly with the surrounding wall. We also offer texture matching services to replicate the existing texture of your walls. Given the frequent hail storms in Colorado Springs, drywall damage from leaks is a common issue we address. We use high-quality materials and techniques to ensure a long-lasting repair that will stand the test of time. We understand the importance of minimizing dust and disruption during the repair process, and we take great care to protect your furniture and belongings. Our drywall repair services are essential for maintaining the beauty and value of your home.",
+        "process": [
+          "Step 1: Damage Assessment: We assess the extent of the drywall damage.",
+          "Step 2: Repair: We patch holes, repair cracks, and smooth out imperfections.",
+          "Step 3: Texture Matching: We match the existing texture of your walls.",
+          "Step 4: Painting: We prime and paint the repaired area to blend seamlessly with the surrounding wall."
+        ],
+        "benefits": [
+          "Restore your walls to their original condition",
+          "Prevent further damage",
+          "Increase your home's value",
+          "Improve your home's appearance"
+        ],
+        "faq": [
+          {
+            "question": "How much does drywall repair cost?",
+            "answer": "The cost of drywall repair depends on the size and complexity of the damage. We offer free estimates to assess the damage and provide you with an accurate quote."
+          },
+          {
+            "question": "Can you repair water-damaged drywall?",
+            "answer": "Yes, we can repair water-damaged drywall. However, it's important to address the source of the leak before repairing the drywall to prevent further damage."
+          },
+          {
+            "question": "Do you offer texture matching services?",
+            "answer": "Yes, we offer texture matching services to replicate the existing texture of your walls. This ensures that the repaired area blends seamlessly with the surrounding wall."
+          }
+        ]
+      },
+      {
+        "slug": "popcorn-ceiling-removal",
+        "name": "Popcorn Ceiling Removal",
+        "shortDescription": "Update your home's look by removing outdated popcorn ceilings.",
+        "description": "Our popcorn ceiling removal service eliminates outdated and potentially hazardous popcorn ceilings, creating a more modern and aesthetically pleasing space. Popcorn ceilings, common in homes built before the 1980s, can contain asbestos, posing a health risk. Our team takes the necessary precautions to safely remove popcorn ceilings, protecting your health and your home. \n\nWe carefully prepare the area, covering furniture and flooring to prevent dust and debris from spreading. We then wet the popcorn ceiling to soften it and carefully scrape it away. Once the popcorn ceiling is removed, we smooth the surface and apply a fresh coat of paint. Many older homes in Colorado Springs, particularly in areas like Old Colorado City, still have popcorn ceilings. Removing them can significantly enhance the look and value of your home. We are experienced in handling popcorn ceiling removal projects of all sizes and complexities, ensuring a safe and efficient process.",
+        "process": [
+          "Step 1: Preparation: We cover furniture and flooring to protect them from dust and debris.",
+          "Step 2: Popcorn Ceiling Removal: We wet the popcorn ceiling and carefully scrape it away.",
+          "Step 3: Surface Smoothing: We smooth the surface and repair any imperfections.",
+          "Step 4: Painting: We prime and paint the ceiling to create a fresh and modern look."
+        ],
+        "benefits": [
+          "Eliminate outdated and potentially hazardous popcorn ceilings",
+          "Create a more modern and aesthetically pleasing space",
+          "Increase your home's value",
+          "Improve your indoor air quality"
+        ],
+        "faq": [
+          {
+            "question": "Is popcorn ceiling removal messy?",
+            "answer": "Yes, popcorn ceiling removal can be messy. However, we take precautions to minimize dust and debris and protect your furniture and belongings."
+          },
+          {
+            "question": "How long does popcorn ceiling removal take?",
+            "answer": "Popcorn ceiling removal typically takes 1-3 days, depending on the size of the room and the complexity of the project."
+          },
+          {
+            "question": "Is it safe to remove popcorn ceilings myself?",
+            "answer": "If your popcorn ceiling contains asbestos, it's best to hire a professional to remove it. Asbestos exposure can cause serious health problems."
+          }
+        ]
+      },
+      {
+        "slug": "deck-staining-sealing",
+        "name": "Deck Staining & Sealing",
+        "shortDescription": "Protect your deck from the elements with our professional staining and sealing services.",
+        "description": "Our deck staining and sealing service protects your deck from the harsh Colorado elements, extending its lifespan and enhancing its beauty. The intense sun, dry air, and fluctuating temperatures can wreak havoc on wood decks, causing them to fade, crack, and warp. Our team carefully cleans and prepares your deck, removing dirt, mildew, and old stain or sealant. \n\nWe then apply a high-quality stain or sealant that is specifically designed for decks, providing long-lasting protection against the elements. We offer a variety of stain colors to match your personal style and complement your home's exterior. Given the high altitude UV exposure in Colorado Springs, we recommend stains and sealants with UV inhibitors to prevent fading. Regular deck staining and sealing is essential for maintaining the beauty and value of your outdoor living space. We are experienced in working with all types of wood decks, ensuring a professional and long-lasting finish.",
+        "process": [
+          "Step 1: Deck Cleaning: We thoroughly clean your deck to remove dirt, mildew, and old stain or sealant.",
+          "Step 2: Surface Preparation: We sand the deck to create a smooth surface.",
+          "Step 3: Staining or Sealing: We apply a high-quality stain or sealant.",
+          "Step 4: Final Inspection: We conduct a final inspection to ensure your satisfaction."
+        ],
+        "benefits": [
+          "Protect your deck from the elements",
+          "Extend your deck's lifespan",
+          "Enhance your deck's beauty",
+          "Increase your home's value"
+        ],
+        "faq": [
+          {
+            "question": "How often should I stain or seal my deck?",
+            "answer": "In Colorado Springs, we recommend staining or sealing your deck every 1-2 years, depending on the type of wood and the severity of the weather conditions."
+          },
+          {
+            "question": "What type of stain or sealant is best for decks in Colorado?",
+            "answer": "We recommend using oil-based or water-based stains and sealants that are specifically designed for decks. These products are durable, weather-resistant, and provide excellent UV protection."
+          },
+          {
+            "question": "Do you offer any warranties on your deck staining and sealing services?",
+            "answer": "Yes, we offer a [Number] year warranty on our deck staining and sealing services, covering peeling, cracking, and fading."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Colorado Springs",
+        "slug": "colorado-springs-co",
+        "state": "CO",
+        "content": "European Painter is proud to offer our professional painting services to the residents and businesses of Colorado Springs. From the historic Old Colorado City to the vibrant downtown area and the growing neighborhoods in Briargate, we bring our expertise and attention to detail to every project. We understand the unique architectural styles found throughout Colorado Springs, and we're committed to providing top-quality painting solutions that enhance the beauty and value of your property.\n\nOur team of skilled painters uses only the highest quality paints and materials to ensure a long-lasting and beautiful finish. Whether you need interior painting, exterior painting, or specialized services like cabinet refinishing or deck staining, we have the experience and expertise to exceed your expectations. We are dedicated to providing exceptional customer service and ensuring that our clients are completely satisfied with our work.\n\nWe are fully licensed and insured, giving you peace of mind knowing that your property is in good hands. Contact us today for a free consultation and estimate.",
+        "localContext": "Colorado Springs, nestled at the base of Pikes Peak, boasts a diverse community and a thriving local economy. The city's unique blend of outdoor recreation, military presence, and growing tech sector makes it a dynamic place to live and work.",
+        "nearbyAreas": [
+          "Manitou Springs",
+          "Security-Widefield",
+          "Fountain"
+        ]
+      },
+      {
+        "city": "Manitou Springs",
+        "slug": "manitou-springs-co",
+        "state": "CO",
+        "content": "European Painter extends its painting services to the charming town of Manitou Springs. Known for its natural mineral springs, historic architecture, and artsy atmosphere, Manitou Springs presents unique painting challenges and opportunities. We are experienced in working with the diverse range of homes and businesses in the area, from Victorian-era buildings to modern residences.\n\nWe understand the importance of preserving the character of Manitou Springs while providing durable and aesthetically pleasing paint finishes. Our team is skilled in color matching and can help you select the perfect hues to complement your property's style. Whether you need to refresh the exterior of your home or update the interior of your business, we're here to help.\n\nWe take pride in our commitment to quality and customer satisfaction. Contact us today to learn more about our painting services in Manitou Springs.",
+        "localContext": "Manitou Springs is a historic town renowned for its mineral springs and unique shops and restaurants. Its proximity to Pikes Peak and the Garden of the Gods makes it a popular tourist destination.",
+        "nearbyAreas": [
+          "Colorado Springs",
+          "Cascade",
+          "Green Mountain Falls"
+        ]
+      },
+      {
+        "city": "Security-Widefield",
+        "slug": "security-widefield-co",
+        "state": "CO",
+        "content": "European Painter is pleased to offer professional painting services to the residents and businesses of Security-Widefield. This growing community south of Colorado Springs is known for its family-friendly atmosphere and affordable housing. We are dedicated to providing high-quality painting services at competitive prices.\n\nWhether you need to paint the interior or exterior of your home, or refresh the look of your business, we have the expertise and equipment to get the job done right. We use only the best paints and materials to ensure a long-lasting and beautiful finish. Our team is committed to providing exceptional customer service and ensuring that you are completely satisfied with our work.\n\nWe understand the needs of homeowners and business owners in Security-Widefield, and we strive to provide painting solutions that meet your budget and exceed your expectations. Contact us today for a free consultation and estimate.",
+        "localContext": "Security-Widefield is a rapidly growing community south of Colorado Springs, known for its affordable housing and family-friendly atmosphere. The area offers a mix of residential neighborhoods and commercial developments.",
+        "nearbyAreas": [
+          "Fountain",
+          "Colorado Springs",
+          "Stratmoor"
+        ]
+      },
+      {
+        "city": "Fountain",
+        "slug": "fountain-co",
+        "state": "CO",
+        "content": "European Painter provides painting services to the city of Fountain, CO. Fountain is a vibrant and growing community located south of Colorado Springs. We offer a full range of interior and exterior painting services for residential and commercial properties.\n\nOur experienced team is committed to providing high-quality workmanship and exceptional customer service. We use only premium paints and materials to ensure a long-lasting and beautiful finish. We are dedicated to meeting your specific needs and exceeding your expectations.\n\nWhether you are looking to update the look of your home or business, we are here to help. Contact us today for a free quote.",
+        "localContext": "Fountain is a diverse and growing city with a strong sense of community. Its proximity to Fort Carson and Peterson Air Force Base makes it a popular choice for military families.",
+        "nearbyAreas": [
+          "Security-Widefield",
+          "Colorado Springs",
+          "Peyton"
+        ]
+      },
+      {
+        "city": "Monument",
+        "slug": "monument-co",
+        "state": "CO",
+        "content": "European Painter proudly extends our services to Monument, CO, providing top-notch painting solutions for homes and businesses. Monument, known for its scenic beauty and family-friendly atmosphere, features a variety of architectural styles, from modern residences to more traditional homes. We tailor our services to meet the unique needs of each property, ensuring a flawless finish that enhances curb appeal and interior aesthetics.\n\nOur skilled painters use only the highest quality paints and materials, guaranteeing durability and vibrant colors that withstand the Colorado climate. Whether you're looking for interior painting to refresh your living spaces or exterior painting to protect your home from the elements, we're committed to delivering exceptional results.\n\nWe understand the importance of a hassle-free experience, which is why we offer free consultations and detailed estimates. Contact us today to discover how European Painter can transform your Monument property.",
+        "localContext": "Monument is a thriving town known for its beautiful parks, excellent schools, and strong community spirit. Its location near the Air Force Academy makes it a desirable place to live and work.",
+        "nearbyAreas": [
+          "Palmer Lake",
+          "Woodmoor",
+          "Colorado Springs"
+        ]
+      },
+      {
+        "city": "Palmer Lake",
+        "slug": "palmer-lake-co",
+        "state": "CO",
+        "content": "European Painter is delighted to offer our professional painting services to the residents and businesses of Palmer Lake. Nestled in the foothills of the Rocky Mountains, Palmer Lake is known for its natural beauty and close-knit community. We understand the unique challenges and opportunities presented by the local climate and architecture.\n\nOur team of experienced painters uses only the highest quality paints and materials to ensure a long-lasting and beautiful finish. We are committed to providing exceptional customer service and ensuring that our clients are completely satisfied with our work. Whether you need interior painting, exterior painting, or specialized services like deck staining or fence painting, we have the expertise to exceed your expectations.\n\nWe are fully licensed and insured, giving you peace of mind knowing that your property is in good hands. Contact us today for a free consultation and estimate.",
+        "localContext": "Palmer Lake is a charming town located in the foothills of the Rocky Mountains. Its picturesque lake, hiking trails, and historic downtown make it a popular destination for outdoor enthusiasts.",
+        "nearbyAreas": [
+          "Monument",
+          "Woodmoor",
+          "Gleneagle"
+        ]
+      },
+      {
+        "city": "Woodmoor",
+        "slug": "woodmoor-co",
+        "state": "CO",
+        "content": "European Painter is proud to serve the Woodmoor community with our expert painting services. Woodmoor is a well-established residential area known for its beautiful homes, mature landscaping, and peaceful atmosphere. We understand the importance of maintaining the beauty and value of your property.\n\nWe offer a full range of painting services, including interior painting, exterior painting, and specialized services like cabinet refinishing and deck staining. Our team of skilled painters uses only the highest quality paints and materials to ensure a long-lasting and beautiful finish. We are committed to providing exceptional customer service and ensuring that our clients are completely satisfied with our work.\n\nWe are fully licensed and insured, giving you peace of mind knowing that your property is in good hands. Contact us today for a free consultation and estimate.",
+        "localContext": "Woodmoor is a residential community known for its large lots, mature trees, and well-maintained homes. Its proximity to the Air Force Academy and Colorado Springs makes it a desirable place to live.",
+        "nearbyAreas": [
+          "Monument",
+          "Palmer Lake",
+          "Gleneagle"
+        ]
+      },
+      {
+        "city": "Black Forest",
+        "slug": "black-forest-co",
+        "state": "CO",
+        "content": "European Painter extends its professional painting services to the beautiful community of Black Forest, CO. Known for its sprawling acreage, dense pine forests, and custom-built homes, Black Forest presents unique painting opportunities and challenges. We are experienced in working with the diverse range of homes in the area, from rustic cabins to luxurious estates.\n\nWe understand the importance of using high-quality materials that can withstand the harsh Colorado climate. Our team is skilled in color matching and can help you select the perfect hues to complement your property's style. Whether you need to protect your home from the elements or update the interior to reflect your personal taste, we're here to help.\n\nWe take pride in our commitment to quality and customer satisfaction. Contact us today to learn more about our painting services in Black Forest.",
+        "localContext": "Black Forest is a rural community known for its large lots, pine forests, and equestrian properties. Its proximity to Colorado Springs makes it a desirable place to live for those seeking a more secluded lifestyle.",
+        "nearbyAreas": [
+          "Colorado Springs",
+          "Falcon",
+          "Peyton"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Interior Painting",
+        "text": "European Painter did an amazing job painting the interior of my home! They were professional, efficient, and the quality of their work was outstanding. I highly recommend them!",
+        "date": "2024-08-15"
+      },
+      {
+        "name": "John B.",
+        "rating": 4,
+        "service": "Exterior Painting",
+        "text": "We hired European Painter to paint our house in Broadmoor, and we are very pleased with the results. They did a great job prepping the surface and the paint job looks fantastic. A few minor touch-ups were needed, but they were quick to respond and take care of it.",
+        "date": "2024-09-22"
+      },
+      {
+        "name": "Emily K.",
+        "rating": 5,
+        "service": "Cabinet Refinishing",
+        "text": "My kitchen cabinets were looking old and worn, but European Painter transformed them with their cabinet refinishing service. They look brand new! The team was professional, courteous, and paid attention to every detail.",
+        "date": "2024-10-05"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Drywall Repair",
+        "text": "I had a few holes in my drywall from a recent renovation, and European Painter did an excellent job repairing them. You can't even tell they were ever there! The service was fast, affordable, and the quality was top-notch.",
+        "date": "2024-11-12"
+      },
+      {
+        "name": "Jessica R.",
+        "rating": 5,
+        "service": "Popcorn Ceiling Removal",
+        "text": "European Painter removed the popcorn ceiling in my living room, and it made a huge difference! The room looks so much brighter and more modern. The team was professional, efficient, and cleaned up thoroughly after the job was done.",
+        "date": "2024-12-19"
+      },
+      {
+        "name": "Michael S.",
+        "rating": 4,
+        "service": "Deck Staining & Sealing",
+        "text": "Our deck was starting to show signs of wear and tear, so we hired European Painter to stain and seal it. They did a great job protecting the wood from the elements, and it looks beautiful again. The price was fair, and the service was excellent.",
+        "date": "2025-01-26"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "European Painter | Colorado Springs Painting",
+        "description": "Expert painting services in Colorado Springs. Interior, exterior, cabinets, drywall repair. Free quotes!"
+      },
+      "about": {
+        "title": "About Us | European Painter Colorado Springs",
+        "description": "Learn about European Painter's commitment to quality and community in Colorado Springs. Experienced painting professionals."
+      },
+      "services": {
+        "title": "Painting Services | European Painter CO Springs",
+        "description": "Interior & exterior painting, cabinet refinishing, drywall repair & more in Colorado Springs. Trusted local painters."
+      },
+      "contact": {
+        "title": "Contact | European Painter Colorado Springs",
+        "description": "Get a free quote for your painting project in Colorado Springs. Call or email European Painter today!"
+      },
+      "reviews": {
+        "title": "Reviews | European Painter Colorado Springs",
+        "description": "See what our Colorado Springs customers are saying about European Painter's quality and service. Read our reviews!"
+      },
+      "service-areas": {
+        "title": "Service Areas | European Painter CO Springs",
+        "description": "European Painter serves Colorado Springs and surrounding areas. Check our service area coverage today!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "interior-painting": "/images/service-interior-painting.webp",
+      "exterior-painting": "/images/service-exterior-painting.webp",
+      "cabinet-refinishing": "/images/service-cabinet-refinishing.webp",
+      "drywall-repair": "/images/service-drywall-repair.webp",
+      "popcorn-ceiling-removal": "/images/service-popcorn-ceiling-removal.webp",
+      "deck-staining-sealing": "/images/service-deck-staining-sealing.webp"
+    },
+    "servicesResponsive": {
+      "interior-painting": {
+        "src": "/images/service-interior-painting.webp",
+        "srcset": "/images/service-interior-painting-400w.webp 400w, /images/service-interior-painting-800w.webp 800w, /images/service-interior-painting-1200w.webp 1200w, /images/service-interior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "exterior-painting": {
+        "src": "/images/service-exterior-painting.webp",
+        "srcset": "/images/service-exterior-painting-400w.webp 400w, /images/service-exterior-painting-800w.webp 800w, /images/service-exterior-painting-1200w.webp 1200w, /images/service-exterior-painting.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "cabinet-refinishing": {
+        "src": "/images/service-cabinet-refinishing.webp",
+        "srcset": "/images/service-cabinet-refinishing-400w.webp 400w, /images/service-cabinet-refinishing-800w.webp 800w, /images/service-cabinet-refinishing-1200w.webp 1200w, /images/service-cabinet-refinishing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drywall-repair": {
+        "src": "/images/service-drywall-repair.webp",
+        "srcset": "/images/service-drywall-repair-400w.webp 400w, /images/service-drywall-repair-800w.webp 800w, /images/service-drywall-repair-1200w.webp 1200w, /images/service-drywall-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "popcorn-ceiling-removal": {
+        "src": "/images/service-popcorn-ceiling-removal.webp",
+        "srcset": "/images/service-popcorn-ceiling-removal-400w.webp 400w, /images/service-popcorn-ceiling-removal-800w.webp 800w, /images/service-popcorn-ceiling-removal-1200w.webp 1200w, /images/service-popcorn-ceiling-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "deck-staining-sealing": {
+        "src": "/images/service-deck-staining-sealing.webp",
+        "srcset": "/images/service-deck-staining-sealing-400w.webp 400w, /images/service-deck-staining-sealing-800w.webp 800w, /images/service-deck-staining-sealing-1200w.webp 1200w, /images/service-deck-staining-sealing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}

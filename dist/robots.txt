@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-european-painter.dream-surge.com/sitemap-index.xml
